@@ -7,3 +7,6 @@
 [submodule "editor"]
 	path = editor
 	url = https://github.com/Lolierl/Socratic-Editor
+[submodule "login-panel"]
+	path = login-panel
+	url = https://github.com/Evolution200/login-panel.git
