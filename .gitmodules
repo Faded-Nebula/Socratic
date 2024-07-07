@@ -10,3 +10,9 @@
 [submodule "login-panel"]
 	path = login-panel
 	url = https://github.com/Evolution200/login-panel.git
+[submodule "user"]
+	path = user
+	url = https://github.com/Faded-Nebula/Socratic-user.git
+[submodule "task"]
+	path = task
+	url = https://github.com/Faded-Nebula/Socratic-task.git
