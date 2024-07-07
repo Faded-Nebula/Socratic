@@ -1,0 +1,9 @@
+[submodule "superuser"]
+	path = superuser
+	url = https://github.com/Lolierl/Socratic-Superuser
+[submodule "manager"]
+	path = manager
+	url = https://github.com/Lolierl/Socratic-Manager
+[submodule "editor"]
+	path = editor
+	url = https://github.com/Lolierl/Socratic-Editor
