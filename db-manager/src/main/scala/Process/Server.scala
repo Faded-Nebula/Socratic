@@ -27,10 +27,10 @@ object Server extends IOApp {
             server <- BlazeServerBuilder[IO]
               .bindHttp(10001, "0.0.0.0")
               .withHttpApp(Router("/" -> Routes.service(dataSource, connectionMap)).orNotFound)
-              .withMaxConnections(defaultConfig.maximumServerConnection)
-              .withConnectorPoolSize(10000)
-              .withIdleTimeout(5.minutes)
-              .withResponseHeaderTimeout(5.minutes) // Note: Ember's 'requestHeaderReceiveTimeout' may correspond to Blaze's 'responseHeaderTimeout' or similar.
+//              .withMaxConnections(defaultConfig.maximumServerConnection)
+//              .withConnectorPoolSize(10000)
+//              .withIdleTimeout(5.minutes)
+//              .withResponseHeaderTimeout(5.minutes) // Note: Ember's 'requestHeaderReceiveTimeout' may correspond to Blaze's 'responseHeaderTimeout' or similar.
               .serve
               .compile
               .drain
