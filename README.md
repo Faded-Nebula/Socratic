@@ -58,9 +58,9 @@ A user can submit their article and fill in related information. After this info
 
 The core part of our project is here.
 
-First, we introduce the concepts of journals and Reviewers. All articles must be submitted to corresponding journals. Journals can be added by Managers. When Editors register, they must apply to become an editor for a specific journal, which is then reviewed by a Manager. After a successful application, an Editor can add up to 10 Users as Reviewers for that journal. When a Task enters the Review status, it is randomly assigned to 3 Reviewers. These Reviewers will see the corresponding Task displayed on their "My Task " page. (contributed by 刘思远)
+First, we introduce the concepts of journals and Reviewers. All articles must be submitted to corresponding journals. Journals can be added by Managers. When Editors register, they must apply to become an editor for a specific journal, which is then reviewed by a Manager. After a successful application, an Editor can add up to 10 Users as Reviewers for that journal. When a Task enters the Review status, it is randomly assigned to 3 Reviewers. These Reviewers will see the corresponding Task displayed on their "My Task " page.
 
-Next, we introduce the comment system. Each Task has a homepage where anyone can view information about the Task and download the paper PDF. Comments are divided into three types: Comment (initiated by any user), Review (formal review by a Reviewer), and Rebuttal (author's response to Comments and Reviews). The Editor will make a final decision on whether to accept the paper based on this content. (contributed by 刘思远)
+Next, we introduce the comment system. Each Task has a homepage where anyone can view information about the Task and download the paper PDF. Comments are divided into three types: Comment (initiated by any user), Review (formal review by a Reviewer), and Rebuttal (author's response to Comments and Reviews). The Editor will make a final decision on whether to accept the paper based on this content. 
 
 Then, we explain the anonymity system. Peer review is conducted blindly, so on the Task homepage and in comments, each person is associated with a pseudonym. These pseudonyms are assigned when the author submits, when Reviewers are assigned, or when a user comments for the first time.
 
